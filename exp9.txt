@@ -16,7 +16,7 @@
     echo "<h1>$message</h1>";
     echo "<b>Today is:</b>" .$day. "<br>";
     echo "<b>Current Date:</b>" .$date. "<br>";
-    echo "<b>Current Time:</b>".$time";
+    echo "<b>Current Time:</b>".$time;
 ?>
 
 </body>
