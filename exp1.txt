@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Details</title>
+</head>
+<body>
+
+    <h1><u>Personal Details</u></h1>
+
+    <p><b>Name:</b> Chandrashekhar Sahu</p>
+
+    <p><strong>Age:</strong> 20 years</p>
+
+    <p><i>Course:</i> Web Development</p>
+
+    <p><em>College:</em> ABC College</p>
+
+    <p><b>Address:</b> <u>Pune, Maharashtra</u></p>
+
+    <p><b>Email:</b> <mark>sahuchandrashekhar981@gmail.com</mark></p>
+
+    <p><b>Mobile No:</b> <small>9876543210</small></p>
+
+    <p><b>Hobbies:</b> Coding, Reading, Playing Games</p>
+
+    <p><b>Qualification:</b> 12<sup>th</sup> Pass</p>
+
+    <p><b>Favorite Subject:</b> H<sub>2</sub>O and Web Development</p>
+
+    <p><b>Old Skill:</b> <del>Basic Computer</del></p>
+
+    <p><b>New Skill:</b> <ins>HTML, CSS, JavaScript</ins></p>
+
+</body>
+</html>

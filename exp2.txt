@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image, Hyperlink and Nested Table</title>
+</head>
+
+<body>
+
+    <h1>Student Information Page</h1>
+
+    <h2>Image Example</h2>
+    <img src="student.jpg" alt="Student Image" width="200" height="150">
+
+    <h2>Hyperlink Example</h2>
+    <p>
+        Visit 
+        <a href="https://www.google.com" target="_blank">Google</a>
+        for more information.
+    </p>
+
+    <h2>Nested Table Example</h2>
+
+    <table border="1" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Student Name</th>
+            <th>Course Details</th>
+        </tr>
+
+        <tr>
+            <td>Rahul Sharma</td>
+            <td>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>90</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Amit Patil</td>
+            <td>
+                <table border="1" cellpadding="5" cellspacing="0">
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td>88</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

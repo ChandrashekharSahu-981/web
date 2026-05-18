@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Types Example</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            color: darkblue;
+            text-align: center;
+            background-color: lightgray;
+            padding: 10px;
+        }
+
+        table {
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: darkgreen;
+            color: white;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Inline CSS -->
+    <h1>Student Information</h1>
+
+    <h2 style="color: red; text-align: center;">
+        Student Marks Table
+    </h2>
+
+    <table>
+        <tr>
+            <th>Roll No</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Amit</td>
+            <td>HTML</td>
+            <td>85</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Sneha</td>
+            <td>CSS</td>
+            <td>90</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Rahul</td>
+            <td>JavaScript</td>
+            <td>78</td>
+        </tr>
+    </table>
+
+    <p style="color: purple; font-size: 18px; text-align: center;">
+        This page demonstrates inline, internal, and external CSS.
+    </p>
+
+</body>
+</html>

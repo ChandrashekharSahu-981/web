@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+
+    <script>
+        function calculator(num1, num2, operator) {
+            let result;
+
+            switch (operator) {
+                case '+':
+                    result = num1 + num2;
+                    break;
+
+                case '-':
+                    result = num1 - num2;
+                    break;
+
+                case '*':
+                    result = num1 * num2;
+                    break;
+
+                case '/':
+                    if (num2 == 0) {
+                        result = "Division by zero is not allowed";
+                    } else {
+                        result = num1 / num2;
+                    }
+                    break;
+
+                default:
+                    result = "Invalid operator";
+            }
+
+            return result;
+        }
+
+        function performCalculation() {
+            let number1 = parseFloat(prompt("Enter first number:"));
+            let number2 = parseFloat(prompt("Enter second number:"));
+            let operator = prompt("Enter operator (+, -, *, /):");
+
+            let answer = calculator(number1, number2, operator);
+
+            alert("Result: " + answer);
+        }
+    </script>
+</head>
+
+<body>
+    <h2>Simple Calculator using JavaScript</h2>
+
+    <button onclick="performCalculation()">Open Calculator</button>
+</body>
+</html>

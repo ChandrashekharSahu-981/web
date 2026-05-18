@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP String Manipulation</title>
+</head>
+<body>
+
+<h2>String Manipulation in PHP</h2>
+
+<?php
+// Original string
+$str = "Welcome to PHP Programming";
+
+// String functions
+$length = strlen($str);
+$reverse = strrev($str);
+$substring = substr($str, 11, 3);
+$position = strpos($str, "PHP");
+$uppercase = strtoupper($str);
+$lowercase = strtolower($str);
+
+// Display results
+echo "Original String: " . $str . "<br><br>";
+
+echo "Length of String: " . $length . "<br><br>";
+
+echo "Reverse String: " . $reverse . "<br><br>";
+
+echo "Substring: " . $substring . "<br><br>";
+
+echo "Position of PHP: " . $position . "<br><br>";
+
+echo "Uppercase String: " . $uppercase . "<br><br>";
+
+echo "Lowercase String: " . $lowercase . "<br><br>";
+?>
+
+</body>
+</html>

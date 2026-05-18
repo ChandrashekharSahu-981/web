@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Date and Time in PHP</title>
+</head>
+<body>
+
+<?php
+    date_default_timezone_set("Asia/Kolkata");
+
+    $message = "Welcome";
+    $date = date("d-m-Y");
+    $time = date("h:i:s A");
+    $day = date("l");
+
+    echo "<h1>$message</h1>";
+    echo "<b>Today is:</b> $day <br>";
+    echo "<b>Current Date:</b> $date <br>";
+    echo "<b>Current Time:</b> $time";
+?>
+
+</body>
+</html>
